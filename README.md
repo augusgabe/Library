@@ -2,8 +2,8 @@
 为准备物联网竞赛的练手项目
 
 首页：用于监视图书馆当前环境状态以及当有人非法闯入时报警
-![image](https://user-images.githubusercontent.com/75819020/228498458-a9aa41d5-1c09-4fb8-b14f-adac12f5c7b9.png)
 
+![image](https://user-images.githubusercontent.com/75819020/228498458-a9aa41d5-1c09-4fb8-b14f-adac12f5c7b9.png)
 
 ![image](https://user-images.githubusercontent.com/75819020/228498564-4e360e1b-edb7-4175-8438-d0f73a196688.png)
 
