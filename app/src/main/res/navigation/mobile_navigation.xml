@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_check">
+
+    <fragment
+        android:id="@+id/navigation_check"
+        android:tag = "@string/check"
+        android:name="com.example.librarysystem.ui.check.CheckFragment"
+        android:label="数据监测"
+        tools:layout="@layout/check_fragment"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_bookIn"
+        android:name="com.example.librarysystem.ui.bookin.BookInFragment"
+        android:label="图书借阅"
+        tools:layout="@layout/book_in_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_database"
+        android:name="com.example.librarysystem.ui.database.DatabaseFragment"
+        android:label="数据库展示"
+        tools:layout="@layout/database_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.librarysystem.ui.setting.SettingFragment"
+        android:label="设置中心"
+        tools:layout="@layout/setting_fragment" />
+
+</navigation>

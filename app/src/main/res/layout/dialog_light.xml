@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comtainerborderbakbak"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/allback_border_header">
+
+        <ImageView
+            android:id="@+id/iv_close_light"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/quit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:shadowColor="@color/colorDeepBlue"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:text="可调灯"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/control_perial"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="发送控制亮度时间间隔(默认500毫秒)"
+        android:inputType="number"
+        android:focusable="false"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/light_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:shadowColor="@color/colorDeepBlue"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:text="亮度:0%"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/light_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:max="100"
+            android:progress="0"
+            android:maxHeight="5dp"
+            android:minHeight="5dp"
+            android:progressDrawable="@drawable/seekbar"
+            android:thumb="@drawable/light" />
+
+        <Button
+            android:id="@+id/send_light_order"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_btn"
+            android:text="Zigbee发送"
+            android:textColor="@color/colorWhiteLittle"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

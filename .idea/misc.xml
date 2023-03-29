@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/allback_border_header.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/blue_btn.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/book_bg.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/comtainerborderbakbak.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/ic_check.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/ic_control.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/ic_setting.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/lendinfo_bg.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable-xxhdpi/shape_edit_normal.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/activity_main.xml" value="0.19715142428785606" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book_description.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book_in.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book_in_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book_item.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/book_lend.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/borrorwindow.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/chart.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/check_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/control_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/database_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/dialog_date.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/dialog_light.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/lender.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/returnbook.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/set_thread_value.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/setting_fragment.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/layout/table_item.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1655" />
+        <entry key="..\:/Code/Androi project/LibrarySystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1655" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

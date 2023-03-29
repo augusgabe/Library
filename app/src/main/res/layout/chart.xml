@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comtainerborderbakbak"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/allback_border_header">
+
+        <ImageView
+            android:id="@+id/iv_close_light"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/quit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:shadowColor="@color/colorDeepBlue"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:text="数据统计"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/columnChart"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

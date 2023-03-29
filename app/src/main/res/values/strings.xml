@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">图书管理系统</string>
+    <string name="check">监测</string>
+    <string name="control">控制</string>
+    <string name="databaseShow">数据库展示</string>
+    <string name="setting">设置</string>
+    <string name="ip">192.168.38.56</string>
+    <string name="title_header">主界面</string>
+    <string name="tip_1">1.当温度超过预警阈值1时，自动打开1个风扇，温度值超过预警阈值2时，自动打开2个风扇，当低于阈值1时，自动控制风扇全关。</string>
+    <string name="tip_2">2.当光照值低于预警阈值时，自动控制步进电机正转，5秒后停止，自动控制可调灯打开。</string>
+    <string name="tip_3">3.当光照值高于预警阈值时，自动控制步进电机反转，5秒后停止，自动控制可调灯关闭。</string>
+    <string name="bookLend">图书借阅</string>
+    <string name="introduce">\u3000\u3000这是书籍简介部分这是书籍简介部分这是书籍简介部分这是书籍简介部分这是书籍简介部分这是书籍简介部分…</string>
+</resources>

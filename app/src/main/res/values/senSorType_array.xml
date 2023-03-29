@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sensorArray">
+        <item>传感器</item>
+        <item>温度</item>
+        <item>湿度</item>
+        <item>光照</item>
+    </string-array>
+
+
+</resources>
